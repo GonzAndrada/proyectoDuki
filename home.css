@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+main{
+    background-color: blueviolet;
+    height: 600px;
+    background-image: url(multimedia/fuck\ dath.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+aside{
+    background-color:#333 ;
+    color: white;
+} 
+
+article{
+    background-color: #333;
+    border: black solid 3px;
+    color: white;
+    height: 200px;
+}
+
+footer{
+    background-color: black ;
+    height: 100px;
+}
