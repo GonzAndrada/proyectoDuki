@@ -1,0 +1,133 @@
+.navbar {
+    height: 90px;
+    background-color: rgb(84, 13, 150);
+    font-size: 25px;
+}
+
+.img-navbar {
+    height: 90px;
+}
+
+.nav-link {
+    color: white !important;
+
+}
+
+.nav-link:hover{
+    background-color: black;
+    transition: all 3s;
+    border-radius: 15px;
+}
+
+.Jumbotron {
+    background-image: url(multimedia/duki-1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    border: white solid 2px;
+}
+
+.nleft {
+    background-image: url(multimedia/Duki\ Ssj\ 𓆰𓆪.jpeg);
+    width: 40%;
+    height: 850px;
+    background-position: center;
+    background-size: cover;
+}
+
+.nright {
+    background-color: rgb(84, 13, 150);
+    height: auto;
+    width: 60%;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    border: white;
+    text-decoration: underline;
+}
+
+.nright p{
+    color: white;
+}
+
+
+
+.notde{
+    background-image: url(multimedia/Dukibaw.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 40%;
+}
+
+
+h4{
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.notiz{
+    background-color: black;
+    height:800px;
+    width: 60%;}
+.notiz{
+    color: white;
+}
+
+footer{
+    background-color: rgb(84, 13, 150);
+    height: 100px;
+    
+}
+
+.redes{
+   font-size: 40px;
+   text-align: center;
+}
+
+.redes a{
+    color: white;
+}
+
+.redes p{
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:0) and (max-width:576px) {
+    .navbar-collapse {
+        background-color: rgb(84, 13, 150);
+        display: flex;
+        justify-content: center !important;
+    }
+}
