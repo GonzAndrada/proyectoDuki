@@ -1,35 +1,62 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.navbar{
+    height: 90px;
+    background-color: rgb(84, 13, 150);
+   
 }
-header{
-    background-color: black;
-    color: white;
-    height: 100px;
+.img-navbar{
+    height: 90px;
 }
 
-main{
-    background-color: blueviolet;
-    height: 600px;
-    background-image: url(multimedia/fuck\ dath.jpg);
-    background-size: cover;
-    background-position: center;
+.nav-link{
+    color: white !important;
+    
 }
 
-aside{
-    background-color:#333 ;
-    color: white;
-} 
 
-article{
+h2{
+    text-align: center;
     background-color: #333;
-    border: black solid 3px;
-    color: white;
-    height: 200px;
+    height: 50px;
+    color:white;
+    margin-bottom: 0;
+    
 }
+
+.nleft{
+    background-image: url(multimedia/dukishow.webp);
+    background-size:cover;
+    background-position: center;
+    width:50%;
+    height: 400px;
+    
+}
+.nright{
+    width: 50%;
+    background-color: #333;
+}
+
+h3{
+    color: white;
+}
+.nright p{
+    color: white;
+}
+
 
 footer{
-    background-color: black ;
+    background-color: rgb(84, 13, 150);
     height: 100px;
+    
 }
+
+.redes{
+    font-size: 50px;
+    text-align: center;
+}
+
+.redes a{
+    color: white;
+}
+
+
+
