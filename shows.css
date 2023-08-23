@@ -1,65 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+.navbar{
+    height: 90px;
+    background-color: rgb(84, 13, 150);
+    font-size: 25px;
+}
+.img-navbar{
+    height: 90px;
 }
 
-
-
-
-header{
-    background-color: black;
+.nav-link{
+    color: white !important;
+    
+}
+ 
+.Jumbotron{
+    background-image: url(multimedia/duki2076_re.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px; 
     color: white;
-    height: 100px;
+    font-size: 20px;
+} 
+h1{
+    color: white;
 }
 
+h2{
+    height: 50px;
+    background-color:black;
+    border: rgb(84, 13, 150) solid 3px;
+    color:white;
+    text-align: center;
+    margin-bottom: 0;
+}
 
 main{
-    background-color: blueviolet;
-    height: 600px;
-    background-image: url(multimedia/fuck\ dath.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-main p{
+    background-color: black;
+    height: 800px;
     color: white;
-    border: blueviolet solid 5px;
-    height: 250px;
-    width: 50%;
-    border-radius: 10%;
-    text-align:center ;
+    font-size: 20px;
+ 
 }
-
-a{
-    border: white solid 2px;
-    border-radius: 10%;
-    background-color: white;
-    color: blueviolet;
-    text-decoration: none;
-}
-
 
 
 aside{
-    background-color:#333 ;
-    color: white;
-} 
-
-
-
-article{
-    background-color: #333;
-    border: black solid 3px;
-    color: white;
-    height: 200px;
+background-color: black;
+height: 800px;
+color: white;
+font-size: 20px;
 }
 
 
-
-
-
 footer{
-    background-color: black ;
+    background-color: rgb(84, 13, 150);
     height: 100px;
+    
+}
+
+.redes{
+   font-size: 50px;
+   text-align: center;
+}
+
+.redes a{
+    color: white;
+}
+
+
+@media only screen and (min-width:0) and (max-width:576px){
+.navbar-collapse{
+    background-color:rgb(84, 13, 150);
+    display:flex;
+    justify-content: center !important;
+}
 }
