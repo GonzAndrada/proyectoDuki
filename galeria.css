@@ -1,0 +1,126 @@
+.navbar {
+    height: 90px;
+    background-color: rgb(84, 13, 150);
+    font-size: 25px;
+}
+
+.img-navbar {
+    height: 90px;
+}
+
+.nav-link {
+    color: white !important;
+
+}
+
+.nav-link:hover {
+    background-color: black;
+    transition: all 3s;
+    border-radius: 15px;
+}
+
+h1 {
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.galeria {
+    display: grid;
+    height: 800px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas:
+        "img1 img4 img5 img3"
+        "img1 img2 img5 img8"
+        "img7 img2 img6 img8";
+    grid-gap: 15px;
+
+}
+
+.item:hover {
+    transform: scale(1.07);
+    transition: all 0.9s;
+}
+
+.item {
+    border: 2px solid white;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+.item1 {
+    background-image: url(multimedia2/11ddc0e8-b787-4117-8e43-b58ffed45ab2.jpeg);
+    grid-area: img1;
+}
+
+.item2 {
+    background-image: url(multimedia2/155454ff-fb39-44b3-ae2d-eb1a9f084b67.jpeg);
+    grid-area: img2;
+}
+
+.item3 {
+    background-image: url(multimedia2/Fuaaa\ ell\ dukoo\ 😍💖.jpeg);
+    grid-area: img3;
+}
+
+.item4 {
+    background-image: url(multimedia2/fumando.jpeg);
+    grid-area: img4;
+}
+
+.item5 {
+    background-image: url(multimedia2/Duki\ Fondo\ De\ Pantalla\ HD.jpeg);
+    grid-area: img5;
+}
+
+.item6 {
+    background-image: url(multimedia2/Duki.jpeg);
+    grid-area: img6;
+}
+
+.item7 {
+    background-image: url(multimedia2/concazzu.jpeg);
+    grid-area: img7;
+}
+
+.item8 {
+    background-image: url(multimedia2/19bc616f-e61e-460f-9844-f5628fd00ac1.jpeg);
+    grid-area: img8;
+}
+
+footer {
+    background-color: rgb(84, 13, 150);
+    height: 100px;
+
+}
+
+.redes {
+    font-size: 40px;
+    text-align: center;
+}
+
+.redes a {
+    color: white;
+}
+
+.redes p {
+    font-size: 15px;
+    color: white;
+}
+
+@media only screen and (min-width:0) and (max-width:576px) {
+    .navbar-collapse {
+        background-color: rgb(84, 13, 150);
+        display: flex;
+        justify-content: center !important;
+    }
+}
