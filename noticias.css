@@ -14,13 +14,12 @@
 }
 
 .nav-link:hover{
-    background-color: black;
-    transition: all 3s;
-    border-radius: 15px;
+    color: black !important;
+    transition: all 1s;
 }
 
 .Jumbotron {
-    background-image: url(multimedia/duki-1.webp);
+    background-image: url(rspixelimg/rspixel3.webp);
     background-position: center;
     background-size: cover;
     height: 400px;

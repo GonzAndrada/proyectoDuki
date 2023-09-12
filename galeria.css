@@ -14,8 +14,8 @@
 }
 
 .nav-link:hover {
-    background-color: black;
-    transition: all 3s;
+    color: black !important;
+    transition: all 1s;
     border-radius: 15px;
 }
 

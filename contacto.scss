@@ -1,0 +1,196 @@
+$color1: rgb(84, 13, 150);
+$color2: white;
+$color3: rgb(137, 34, 255);
+$color4: black;
+
+body {
+
+
+
+    nav {
+        height: 90px;
+        color: $color1;
+        background-color: $color1;
+        font-size: 25px;
+
+
+        a {
+
+            .alas {
+                height: 90px;
+            }
+        }
+
+        .nav-link {
+            color: $color2 !important;
+
+        }
+
+        .nav-link:hover {
+            color: $color4 !important;
+            transition: all 1s;
+        }
+
+    }
+
+
+
+
+
+    h2 {
+        height: 70px;
+        font-size: 40px;
+        margin: auto;
+        background-color: $color4;
+        border: $color2 solid 3px;
+        text-align: center;
+        color: $color2;
+    }
+
+    main {
+        background-color: $color4;
+        background-size: cover;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        form {
+            padding: 50px 55px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            border-radius: 25px;
+            text-align: center;
+            width: 400px;
+            background-color: $color2;
+
+
+            .input-group {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+
+
+            }
+
+            label {
+                color: $color4;
+                font-size: 15px;
+                font-weight: 600;
+                margin-bottom: 15px;
+
+            }
+
+            input,
+            textarea {
+
+                padding: 17px 25px;
+                border-radius: 25px;
+                margin-bottom: 20px;
+                background-color: $color3;
+                border: 2px solid $color4;
+                color: $color2;
+                outline: none;
+
+            }
+
+            input::placeholder,
+            textarea::placeholder {
+                color: $color2;
+
+            }
+
+            .form-txt {
+                margin-bottom: 30px;
+                display: flex;
+                justify-content: space-between;
+                text-decoration: none;
+                color: $color1;
+
+            }
+
+            .form-txt a {
+                color: $color1 ;
+                font-size: 15px;
+                text-decoration: none;
+
+
+            }
+
+            .btn {
+
+                height: 40px;
+                font-size: 15px;
+                color: $color2;
+                border: 0;
+                border-radius: 25px;
+                background-color: $color1;
+                box-shadow: 0 0 25px $color1;
+                cursor: pointer;
+            }
+
+        }
+
+        .container-boton{
+            background-color: rgb(163, 157, 157);
+            border: 1px solid white;
+            position: fixed;
+            z-index: 999;
+            border-radius: 50%;
+            bottom: 20px;
+            right: 25px;
+            padding: 25px;
+            transition: ease 0.3;
+            animation: efecto 1.2s infinite;
+        }
+        
+        .container-boton:hover{
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+        
+        .boton{
+            width: 60px;
+            transition: ease 1s;
+        }
+        
+        @keyframes efecto {
+            0%{
+                box-shadow: 0 0 0 0 rgba(255, 253, 253, 0.85);
+            }
+
+            100%{
+                box-shadow: 0 0 0 25px rgba(241, 239, 239, 0);
+            }
+        }
+    }
+
+    footer {
+        height: 100px;
+        background-color: $color1;
+        margin: 0;
+
+
+        .redes {
+            text-align: center;
+            font-size: 40px;
+            color: $color2;
+        }
+
+        .redes a {
+            color: $color2
+        }
+
+        .redes a:hover {
+            color: $color4;
+            transition: all 2s;
+        }
+
+        .redes p {
+            font-size: 20px;
+        }
+    }
+
+
+}
