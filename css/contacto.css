@@ -1,8 +1,10 @@
 body nav {
-  height: 90px;
+  height: auto;
   color: rgb(84, 13, 150);
   background-color: rgb(84, 13, 150);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 25px;
+  z-index: 999;
 }
 body nav a .alas {
   height: 90px;
@@ -24,16 +26,18 @@ body h2 {
   color: white;
 }
 body main {
+  background-image: url(../multimedia/lamejordeduki.webp);
   background-color: black;
   background-size: cover;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 body main form {
   padding: 50px 55px;
+  margin: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 25px;
   text-align: center;
@@ -60,6 +64,9 @@ body main form textarea {
   border: 2px solid black;
   color: white;
   outline: none;
+}
+body main form input::-moz-placeholder, body main form textarea::-moz-placeholder {
+  color: white;
 }
 body main form input::placeholder,
 body main form textarea::placeholder {
@@ -94,17 +101,18 @@ body main .container-boton {
   z-index: 999;
   border-radius: 50%;
   bottom: 20px;
-  right: 25px;
+  right: 10px;
   padding: 25px;
   transition: ease 0.3;
   animation: efecto 1.2s infinite;
+  cursor: pointer;
 }
 body main .container-boton:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
 body main .boton {
-  width: 60px;
+  width: 40px;
   transition: ease 1s;
 }
 @keyframes efecto {
@@ -135,5 +143,10 @@ body footer .redes a:hover {
 body footer .redes p {
   font-size: 20px;
 }
-
-/*# sourceMappingURL=contacto.css.map */
+@media only screen and (min-width: 0) and (max-width: 578px) {
+  body .navbar-collapse {
+    background-color: rgb(84, 13, 150);
+    display: flex;
+    justify-content: center !important;
+  }
+}/*# sourceMappingURL=contacto.css.map */

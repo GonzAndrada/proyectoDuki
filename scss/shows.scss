@@ -1,0 +1,104 @@
+$color1: rgb(84, 13, 150);
+$color2: white;
+$color3: rgb(137, 34, 255);
+$color4: black;
+
+body {
+
+    .navbar {
+        height: auto;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: $color1 ;
+        font-size: 25px;
+
+        .img-navbar {
+            height: 90px;
+        }
+
+        .nav-link {
+            color: $color2 !important;
+
+        }
+
+        .nav-link:hover {
+            color: $color4 !important;
+            transition: all 1s;
+            border-radius: 15px;
+        }
+    }
+
+    .Jumbotron {
+        background-image: url(../rspixelimg/dukikheaasan\ rspixel.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+        color: $color2;
+        font-size: 20px;
+
+
+        h1 {
+            color: $color2;
+        }
+    }
+
+    h2 {
+        height: 50px;
+        background-color: $color4;
+        border: $color1 solid 3px;
+        color: $color2;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    main {
+        background-color: $color4;
+        height: 100vh;
+        color: $color2;
+        font-size: 20px;
+
+
+    }
+
+    aside {
+        background-color: $color4;
+        height: 100vh;
+        color: $color2;
+        font-size: 20px;
+    }
+
+
+    footer {
+        background-color: $color1;
+        height: 100px;
+
+
+
+        .redes {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .redes a {
+            color: $color2;
+        }
+
+        .redes p {
+            font-size: 15px;
+            color: $color2;
+        }
+
+        .redes a:hover {
+            color: $color4;
+            transition: all 1s;
+        }
+    }
+
+    @media only screen and (min-width:0) and (max-width:576px) {
+        .navbar-collapse {
+            background-color: $color1;
+            display: flex;
+            justify-content: center !important;
+        }
+    }
+
+}

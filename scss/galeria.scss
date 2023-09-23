@@ -1,0 +1,153 @@
+$color1: rgb(84, 13, 150);
+$color2: white;
+$color3: rgb(137, 34, 255);
+$color4: black;
+
+
+
+body {
+
+
+    .navbar {
+        height: auto;
+        background-color: $color1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        z-index: 999;
+
+
+        .img-navbar {
+            height: 90px;
+        }
+
+        .nav-link {
+            color: $color2 !important;
+
+        }
+
+        .nav-link:hover {
+            color: $color4 !important;
+            transition: all 1s;
+            border-radius: 15px;
+        }
+
+    }
+
+    h1 {
+        background-color: $color4;
+        height: 50px;
+        color: $color2;
+        text-align: center;
+        margin-bottom: 0;
+
+    }
+
+    .galeria {
+        display: grid;
+        height: 100vh;
+        width: 100%;
+        padding: 10px;
+        background-color: $color4;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 200px);
+        grid-template-areas:
+        "img1 img4 img5 img3"
+        "img1 img2 img5 img8"
+        "img7 img2 img6 img8";
+    grid-gap: 15px;
+
+
+
+        .item:hover {
+            transform: scale(1.07);
+            transition: all 0.9s;
+        }
+
+        .item {
+            border: 2px solid $color2;
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+
+        }
+
+        .item1 {
+            background-image: url(../multimedia2/11ddc0e8-b787-4117-8e43-b58ffed45ab2.jpeg);
+            grid-area: img1;
+        }
+
+        .item2 {
+            background-image: url(../multimedia2/155454ff-fb39-44b3-ae2d-eb1a9f084b67.jpeg);
+            grid-area: img2;
+        }
+
+        .item3 {
+            background-image: url(../multimedia2/Fuaaa\ ell\ dukoo\ 😍💖.jpeg);
+            grid-area: img3;
+        }
+
+        .item4 {
+            background-image: url(../multimedia2/fumando.jpeg);
+            grid-area: img4;
+        }
+
+        .item5 {
+            background-image: url(../multimedia2/Duki\ Fondo\ De\ Pantalla\ HD.jpeg);
+            grid-area: img5;
+        }
+
+        .item6 {
+            background-image: url(../multimedia2/Duki.jpeg);
+            grid-area: img6;
+        }
+
+        .item7 {
+            background-image: url(../multimedia2/concazzu.jpeg);
+            grid-area: img7;
+        }
+
+        .item8 {
+            background-image: url(../multimedia2/19bc616f-e61e-460f-9844-f5628fd00ac1.jpeg);
+            grid-area: img8;
+        }
+
+
+    }
+
+    footer {
+        background-color: $color1;
+        height: 100px;
+
+
+
+        .redes {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .redes a {
+            color: $color2;
+        }
+
+        .redes p {
+            font-size: 15px;
+            color: $color2;
+        }
+
+        .redes a:hover {
+            color: $color4;
+            transition: all 1s;
+        }
+    }
+
+
+  
+
+    @media only screen and (min-width:0) and (max-width:576px) {
+        .navbar-collapse {
+            background-color: $color1;
+            display: flex;
+            justify-content: center !important;
+        }
+    }
+}

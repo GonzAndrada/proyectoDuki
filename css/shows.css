@@ -1,12 +1,8 @@
 body .navbar {
   height: auto;
-  background-color: rgb(84, 13, 150) !important;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(84, 13, 150);
   font-size: 25px;
-  z-index: 999;
-}
-body .navbar .span {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 body .navbar .img-navbar {
   height: 90px;
@@ -17,51 +13,38 @@ body .navbar .nav-link {
 body .navbar .nav-link:hover {
   color: black !important;
   transition: all 1s;
-  border-radius: 15%;
+  border-radius: 15px;
 }
-body h2 {
-  text-align: center;
-  background-color: black;
-  border: rgb(84, 13, 150) solid 2px;
-  height: 50px;
-  color: white;
-  margin-bottom: 0;
-}
-body .nleft {
-  background-image: url(multimedia/dukishow.webp);
-  background-size: cover;
+body .Jumbotron {
+  background-image: url(../rspixelimg/dukikheaasan\ rspixel.jpg);
   background-position: center;
-  width: 40%;
-  height: 100vh;
-  margin-bottom: 0;
-}
-body .nright {
-  width: 60%;
-  height: 100vh;
-  background-color: black;
-}
-body h3 {
-  color: white;
-  font-size: 40px;
-  text-align: center;
-  margin-bottom: 0;
-}
-body .nright p {
+  background-size: cover;
+  height: 350px;
   color: white;
   font-size: 20px;
-  text-align: center;
 }
-body .nright a {
-  border: white solid 2px;
-  padding: 10px;
-  border-radius: 10px;
-  color: rgb(84, 13, 150);
-  text-decoration: none;
-  text-align: center;
-}
-body .nright a:hover {
+body .Jumbotron h1 {
   color: white;
-  transition: all 1s;
+}
+body h2 {
+  height: 50px;
+  background-color: black;
+  border: rgb(84, 13, 150) solid 3px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+body main {
+  background-color: black;
+  height: 100vh;
+  color: white;
+  font-size: 20px;
+}
+body aside {
+  background-color: black;
+  height: 100vh;
+  color: white;
+  font-size: 20px;
 }
 body footer {
   background-color: rgb(84, 13, 150);
@@ -88,4 +71,4 @@ body footer .redes a:hover {
     display: flex;
     justify-content: center !important;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=shows.css.map */

@@ -5,9 +5,6 @@ body .navbar {
   font-size: 25px;
   z-index: 999;
 }
-body .navbar .span {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
 body .navbar .img-navbar {
   height: 90px;
 }

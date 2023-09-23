@@ -1,0 +1,105 @@
+@charset "UTF-8";
+body .navbar {
+  height: auto;
+  background-color: rgb(84, 13, 150);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  z-index: 999;
+}
+body .navbar .img-navbar {
+  height: 90px;
+}
+body .navbar .nav-link {
+  color: white !important;
+}
+body .navbar .nav-link:hover {
+  color: black !important;
+  transition: all 1s;
+  border-radius: 15px;
+}
+body h1 {
+  background-color: black;
+  height: 50px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+body .galeria {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 200px);
+  grid-template-areas: "img1 img4 img5 img3" "img1 img2 img5 img8" "img7 img2 img6 img8";
+  grid-gap: 15px;
+}
+body .galeria .item:hover {
+  transform: scale(1.07);
+  transition: all 0.9s;
+}
+body .galeria .item {
+  border: 2px solid white;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+body .galeria .item1 {
+  background-image: url(../multimedia2/11ddc0e8-b787-4117-8e43-b58ffed45ab2.jpeg);
+  grid-area: img1;
+}
+body .galeria .item2 {
+  background-image: url(../multimedia2/155454ff-fb39-44b3-ae2d-eb1a9f084b67.jpeg);
+  grid-area: img2;
+}
+body .galeria .item3 {
+  background-image: url(../multimedia2/Fuaaa\ ell\ dukoo\ 😍💖.jpeg);
+  grid-area: img3;
+}
+body .galeria .item4 {
+  background-image: url(../multimedia2/fumando.jpeg);
+  grid-area: img4;
+}
+body .galeria .item5 {
+  background-image: url(../multimedia2/Duki\ Fondo\ De\ Pantalla\ HD.jpeg);
+  grid-area: img5;
+}
+body .galeria .item6 {
+  background-image: url(../multimedia2/Duki.jpeg);
+  grid-area: img6;
+}
+body .galeria .item7 {
+  background-image: url(../multimedia2/concazzu.jpeg);
+  grid-area: img7;
+}
+body .galeria .item8 {
+  background-image: url(../multimedia2/19bc616f-e61e-460f-9844-f5628fd00ac1.jpeg);
+  grid-area: img8;
+}
+body footer {
+  background-color: rgb(84, 13, 150);
+  height: 100px;
+}
+body footer .redes {
+  font-size: 40px;
+  text-align: center;
+}
+body footer .redes a {
+  color: white;
+}
+body footer .redes p {
+  font-size: 15px;
+  color: white;
+}
+body footer .redes a:hover {
+  color: black;
+  transition: all 1s;
+}
+@media only screen and (min-width: 0) and (max-width: 576px) {
+  body .navbar-collapse {
+    background-color: rgb(84, 13, 150);
+    display: flex;
+    justify-content: center !important;
+  }
+}/*# sourceMappingURL=galeria.css.map */

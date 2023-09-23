@@ -1,12 +1,10 @@
+@charset "UTF-8";
 body .navbar {
   height: auto;
-  background-color: rgb(84, 13, 150) !important;
+  background-color: rgb(84, 13, 150);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 25px;
   z-index: 999;
-}
-body .navbar .span {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 body .navbar .img-navbar {
   height: 90px;
@@ -17,51 +15,65 @@ body .navbar .nav-link {
 body .navbar .nav-link:hover {
   color: black !important;
   transition: all 1s;
-  border-radius: 15%;
+}
+body .Jumbotron {
+  background-image: url(../rspixelimg/rspixel3.webp);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  color: white;
+  font-size: 20px;
 }
 body h2 {
-  text-align: center;
   background-color: black;
-  border: rgb(84, 13, 150) solid 2px;
   height: 50px;
+  text-align: center;
   color: white;
   margin-bottom: 0;
+  border: white solid 2px;
 }
 body .nleft {
-  background-image: url(multimedia/dukishow.webp);
+  background-image: url(../multimedia/Duki\ Ssj\ 𓆰𓆪.jpeg);
+  background-position: top;
   background-size: cover;
-  background-position: center;
   width: 40%;
   height: 100vh;
-  margin-bottom: 0;
+  background-position: center;
+  background-size: cover;
 }
 body .nright {
-  width: 60%;
+  background-color: rgb(84, 13, 150);
   height: 100vh;
-  background-color: black;
+  width: 60%;
 }
 body h3 {
   color: white;
   font-size: 40px;
-  text-align: center;
-  margin-bottom: 0;
+  border: white;
+  text-decoration: underline;
 }
 body .nright p {
   color: white;
-  font-size: 20px;
-  text-align: center;
 }
-body .nright a {
-  border: white solid 2px;
-  padding: 10px;
-  border-radius: 10px;
-  color: rgb(84, 13, 150);
-  text-decoration: none;
-  text-align: center;
+body .notde {
+  background-image: url(../multimedia/Dukibaw.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  width: 40%;
 }
-body .nright a:hover {
+body h4 {
   color: white;
-  transition: all 1s;
+  font-size: 30px;
+  text-decoration: underline;
+}
+body .notiz {
+  background-color: black;
+  height: 800px;
+  width: 60%;
+}
+body .notiz {
+  color: white;
 }
 body footer {
   background-color: rgb(84, 13, 150);
@@ -88,4 +100,4 @@ body footer .redes a:hover {
     display: flex;
     justify-content: center !important;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=noticias.css.map */

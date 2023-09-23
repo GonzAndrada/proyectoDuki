@@ -8,10 +8,12 @@ body {
 
 
     nav {
-        height: 90px;
+        height: auto;
         color: $color1;
         background-color: $color1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 25px;
+        z-index: 999;
 
 
         a {
@@ -48,17 +50,19 @@ body {
     }
 
     main {
+        background-image: url(../multimedia/lamejordeduki.webp);
         background-color: $color4;
         background-size: cover;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         min-height: 100vh;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
 
 
         form {
             padding: 50px 55px;
+            margin: 20px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
             border-radius: 25px;
             text-align: center;
@@ -132,35 +136,36 @@ body {
 
         }
 
-        .container-boton{
+        .container-boton {
             background-color: rgb(163, 157, 157);
             border: 1px solid white;
             position: fixed;
             z-index: 999;
             border-radius: 50%;
             bottom: 20px;
-            right: 25px;
+            right: 10px;
             padding: 25px;
             transition: ease 0.3;
             animation: efecto 1.2s infinite;
+            cursor: pointer;
         }
-        
-        .container-boton:hover{
+
+        .container-boton:hover {
             transform: scale(1.1);
             transition: 0.3s;
         }
-        
-        .boton{
-            width: 60px;
+
+        .boton {
+            width: 40px;
             transition: ease 1s;
         }
-        
+
         @keyframes efecto {
-            0%{
+            0% {
                 box-shadow: 0 0 0 0 rgba(255, 253, 253, 0.85);
             }
 
-            100%{
+            100% {
                 box-shadow: 0 0 0 25px rgba(241, 239, 239, 0);
             }
         }
@@ -192,5 +197,16 @@ body {
         }
     }
 
+
+    @media only screen and (min-width:0) and (max-width:578px) {
+        .navbar-collapse {
+            background-color: rgb(84, 13, 150);
+            display: flex;
+            justify-content: center !important;
+
+
+        }
+
+    }
 
 }

@@ -1,0 +1,131 @@
+$color1: rgb(84, 13, 150);
+$color2: white;
+$color3: rgb(137, 34, 255);
+$color4: black;
+
+
+body {
+
+    .navbar {
+        height: auto;
+        background-color: $color1 !important;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        z-index: 999;
+
+        .span{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .img-navbar {
+            height: 90px;
+        }
+
+        .nav-link {
+            color: $color2 !important;
+
+        }
+
+        .nav-link:hover {
+            color: $color4 !important;
+            transition: all 1s;
+            border-radius: 15%;
+        }
+
+    }
+
+
+
+
+    h2 {
+        text-align: center;
+        background-color: $color4;
+        border: $color1 solid 2px;
+        height: 50px;
+        color: $color2;
+        margin-bottom: 0;
+    }
+
+    .nleft {
+        background-image: url(multimedia/dukishow.webp);
+        background-size: cover;
+        background-position: center;
+        width: 40%;
+        height: 100vh;
+        margin-bottom: 0;
+
+    }
+
+    .nright {
+        width: 60%;
+        height: 100vh;
+        background-color: $color4;
+    }
+
+    h3 {
+
+        color: $color2;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .nright p {
+        color: $color2 ;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .nright a {
+        border: $color2 solid 2px;
+        padding: 10px;
+        border-radius: 10px;
+        color: $color1;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nright a:hover {
+        color: $color2;
+        transition: all 1s;
+    }
+
+
+
+
+
+    footer {
+        background-color: $color1;
+        height: 100px;
+
+
+        .redes {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .redes a {
+            color: $color2;
+        }
+
+        .redes p {
+            font-size: 15px;
+            color: $color2;
+        }
+
+        .redes a:hover {
+            color: $color4;
+            transition: all 1s;
+
+        }
+
+
+    }
+
+    @media only screen and (min-width:0) and (max-width:576px) {
+        .navbar-collapse {
+            background-color: $color1;
+            display: flex;
+            justify-content: center !important;
+        }
+    }
+}

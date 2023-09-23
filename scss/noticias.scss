@@ -1,0 +1,143 @@
+$color1: rgb(84, 13, 150);
+$color2: white;
+$color3: rgb(137, 34, 255);
+$color4: black;
+
+
+body {
+
+
+    .navbar {
+        height: auto;
+        background-color: $color1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        z-index: 999;
+
+
+
+        .img-navbar {
+            height: 90px;
+        }
+
+        .nav-link {
+            color: $color2 !important;
+
+        }
+
+        .nav-link:hover {
+            color: $color4 !important;
+            transition: all 1s;
+        }
+
+    }
+
+    .Jumbotron {
+        background-image: url(../rspixelimg/rspixel3.webp);
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        color: $color2;
+        font-size: 20px;
+    }
+
+    h2 {
+        background-color: $color4;
+        height: 50px;
+        text-align: center;
+        color: $color2;
+        margin-bottom: 0;
+        border: $color2 solid 2px;
+    }
+
+    .nleft {
+        background-image: url(../multimedia/Duki\ Ssj\ 𓆰𓆪.jpeg);
+        background-position: top;
+        background-size: cover;
+        width: 40%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .nright {
+        background-color: $color1;
+        height: 100vh;
+        width: 60%;
+    }
+
+    h3 {
+        color: $color2;
+        font-size: 40px;
+        border: $color2;
+        text-decoration: underline;
+    }
+
+    .nright p {
+        color: white;
+    }
+
+
+
+    .notde {
+        background-image: url(../multimedia/Dukibaw.jpeg);
+        background-position: center;
+        background-size: cover;
+        height: 800px;
+        width: 40%;
+    }
+
+
+    h4 {
+        color: $color2;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+    .notiz {
+        background-color: $color4;
+        height: 800px;
+        width: 60%;
+    }
+
+    .notiz {
+        color: $color2;
+    }
+
+    footer {
+        background-color: $color1;
+        height: 100px;
+
+
+
+        .redes {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .redes a {
+            color: $color2;
+        }
+
+        .redes p {
+            font-size: 15px;
+            color: $color2;
+        }
+
+        .redes a:hover {
+            color: $color4;
+            transition: all 1s;
+        }
+
+
+
+    }
+
+    @media only screen and (min-width:0) and (max-width:576px) {
+        .navbar-collapse {
+            background-color: $color1;
+            display: flex;
+            justify-content: center !important;
+        }
+    }
+}
